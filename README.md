@@ -2,9 +2,8 @@
 
 This app allows users to track their calorie intake and calories burned.
 
-![App Screenshot](./images/app-screenshot.png)
 <video width="600" controls>
-  <source src="./videos/de" type="video/mp4">
+  <source src="/src/assets/calories-tracker.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -63,25 +62,12 @@ Through developing this app, I:
 
 ## Production
 
-Check out the live version of the app [here](https://your-production-url.com).
+Check out the live version of the app [here](https://calories-tracker-by-ariadnaml.netlify.app/).
 
-## Video Demo
 
-Watch a video demonstration of the app in action:
-
-<video width="600" controls>
-  <source src="./videos/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Credits
 
-I would like to give special thanks to the course [Course Name] by [Instructor/Organization Name], where I learned the concepts and techniques used in this app.
+I would like to give special thanks to the course React y TypeScript - La Guía Completa Creando +10 Proyectos by Juan Pablo De la Torre Valdez, where I learned the concepts and techniques used in this app.
 
-## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License.
