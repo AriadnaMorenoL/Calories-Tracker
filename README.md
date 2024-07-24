@@ -1,30 +1,87 @@
-# React + TypeScript + Vite
+# Calorie Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app allows users to track their calorie intake and calories burned.
 
-Currently, two official plugins are available:
+![App Screenshot](./images/app-screenshot.png)
+<video width="600" controls>
+  <source src="./videos/de" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Calorie Tracking:** Enter the calories consumed and burned to keep track of your daily intake and expenditure.
+- **Daily Summary:** View a summary of your daily calorie balance.
+- **Component-Based Design:** The app displays content across different components for a modular and maintainable structure.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React:** For building the user interface.
+- **TypeScript:** To add static type checking.
+- **Tailwind CSS:** For styling the application.
+- **useReducer:** To manage the application's state, improving upon previous experiences with custom hooks.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Learning Outcomes
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Through developing this app, I:
+
+- Continued to enhance my skills in managing state using `useReducer`.
+- Improved my ability to handle state for displaying different content across various React components.
+- Further developed my proficiency in TypeScript and Tailwind CSS.
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/calorie-tracker.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd calorie-tracker
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+1. Enter the calories consumed.
+2. Enter the calories burned.
+3. View your daily calorie balance.
+
+## Production
+
+Check out the live version of the app [here](https://your-production-url.com).
+
+## Video Demo
+
+Watch a video demonstration of the app in action:
+
+<video width="600" controls>
+  <source src="./videos/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Credits
+
+I would like to give special thanks to the course [Course Name] by [Instructor/Organization Name], where I learned the concepts and techniques used in this app.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
